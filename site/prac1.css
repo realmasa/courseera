@@ -1,3 +1,13 @@
-#back{
-	background-color: id="back" ;
+
+	*{box-sizing:borderbox}
+	#nows{
+		background-color:#33cc99;
+	}
+#cender{
+	text-align: center;
+	background-color: #CCFFFF;
+	
+}
+#greyy{
+	background-color: #d0d0d0;
 }
