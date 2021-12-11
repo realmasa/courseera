@@ -55,6 +55,13 @@ h1{
 
 	
 }
+.behave{
+	margin-top: 0px;
+	background-color: dark gray;
+	clear: both;
+	padding: 0;
+	font-size: 1em;
+}
 #content{
 	background-color: gray;
 }
@@ -71,9 +78,11 @@ h1{
 	margin-left:190px;
 	text-align: center;
 	position: relative;
-	width: 80%;
+	width: 50px;
 	text-align: right;
 	border: 1px solid black;
+	font-size: 1.5em;
+
 	
 }
 #align2{text-align: right;
@@ -89,9 +98,11 @@ h1{
 	
 	margin-left: 180px;
 	position: relative;
-	width: 80%;
+	width: 60px;
 	text-align: right;
 	border: 1px solid black;
+	font-size: 1.1em;
+
 
 	
 
@@ -99,21 +110,23 @@ h1{
 #align3{
 	text-align: right;
 	background-color: gold;
-	width: 100px;
+	width: 50px;
 	height: 25px;
 	
 	
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	color: black;
 
 	float: right;
-	clear: left;
+	clear: both;
 	margin-left:190px;
-	text-align: center;
+	
 	position: relative;
-	width: 80%;
+	width: 60px;
 	text-align: right;
 	border: 1px solid black;
+	text-align: center;
+	font-size: 1.5em;
 
 	
 	
