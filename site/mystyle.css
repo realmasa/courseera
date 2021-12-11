@@ -3,6 +3,12 @@
 	margin: 0;
 	padding: 0;
 }
+html{
+	background-color: #bdb76b; 
+}
+h1{
+	background-color: #808000;
+}
 body{
 	
 	/*background-color: gray;*/
@@ -15,10 +21,10 @@ h1{
 	
 }
 #box1{
-	background-color: gray;
+	background-color: #e6e6fa;
 	padding:1px;
 	border: 1px solid black;
-	height: 250px;
+	height: auto;
 	width:33%;
 	float: right;
 	overflow: auto;
@@ -29,10 +35,10 @@ h1{
 	
 }
 #box2{
-	background-color: gray;
+	background-color: #e6e6fa;
 	padding: 1px;
 	border: 2px solid black;
-	height: 250px;
+	height: auto;
 	width: 33.33%;
 	overflow: auto;
 	float: right;
@@ -42,10 +48,10 @@ h1{
 
 }
 #box3{
-	background-color: gray;
+	background-color: #e6e6fa;
 	padding: 1px;
 	border: 2px solid black;
-	height: 250px;
+	height: auto;
 	width: 33%;
 	overflow: auto;
 	
@@ -57,13 +63,14 @@ h1{
 }
 .behave{
 	margin-top: 0px;
-	background-color: dark gray;
+	background-color: #dda0dd;
 	clear: both;
 	padding: 0;
 	font-size: 1em;
+	background-color: #e6e6fa;
 }
 #content{
-	background-color: gray;
+	background-color: #dda0dd;
 }
 #align1{text-align: right;
 	background-color: maroon;
