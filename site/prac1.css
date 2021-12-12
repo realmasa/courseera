@@ -4,18 +4,31 @@ body{
   color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
+
 .container{
-  background-color: blue;
+  background-color: black;
   padding-left:0;
   padding-right:0;
   margin-right: 0;
   margin-left: 0;
-  text-align: center;
+  text-align: left;
+
 
   
 }
 #navbar{
   background-color: yellow;
+  height: auto;
+  clear: both;
+  font-size: 16px;
+  font-weight: bold;
 
-  
+
 }
+.dropdown-menu{
+  visible-xs;
+  visible-sm;
+  hidden-lg;
+  hidden-md;
+}
+
