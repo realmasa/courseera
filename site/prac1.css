@@ -1,0 +1,21 @@
+body{
+  background-color: maroon;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+.container{
+  background-color: blue;
+  padding-left:0;
+  padding-right:0;
+  margin-right: 0;
+  margin-left: 0;
+  text-align: center;
+
+  
+}
+#navbar{
+  background-color: yellow;
+
+  
+}
