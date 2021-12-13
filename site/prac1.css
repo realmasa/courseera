@@ -1,34 +1,94 @@
 body{
-  background-color: maroon;
+  background-color: #191970;
   font-size: 16px;
   color: #fff;
   font-family: 'Oxygen', sans-serif;
 }
 
+.navbar-brand{
+  background-color: #FFA500;
+  font-family: 'Lora', serif;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 1px #222;
+  margin-bottom: 0;
+  line-height: 1.428;
+
+}
 .container{
-  background-color: black;
-  padding-left:0;
-  padding-right:0;
-  margin-right: 0;
-  margin-left: 0;
-  text-align: left;
+  background-color: #469cb9;
+
+}
+.navbar-toggle{
+  position: relative;
+  display: inline-block;
+  float: right;
+  border-radius: 4px;
+  padding: 9px 10px;
+  margin-bottom: 8px;
+  background-color: #DAA520;
+  border: 1px solid   #A52A2A;
+  background-image: none;
+
+}
+.dropdown{
+  background-color: green;
+}
 
 
+
+
+.icon-bar{
+
+border: 3px;
+border-color: black;
+clear: both;
+}
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media(max-width: 767px){
+  .container{
+  background-color: red;
+  }
+  .navbar-brand h1{
+    font-size: 5vw;
+   
+
+  }
+  .dropdown{
+    background-color: red;
+    float: left;
+  }
+  .navbar-brand{ height: 80px;
+
+  }
+  .dropdown{
+    visibility: visible;
+    clear: both;
+    border-color: solid black;
+    padding: 0;
+  }
+
+}
+@media (min-width:767px) and (max-width: 990px){ .container{
+  background-color: yellow;
+  }
+ }
+ 
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:991px) and (max-width: 1199px) {.container{
+  background-color: maroon;
+  }}
+  
+ 
+
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container{
+  background-color: white;
+  }
   
 }
-#navbar{
-  background-color: yellow;
-  height: auto;
-  clear: both;
-  font-size: 16px;
-  font-weight: bold;
-
-
-}
-.dropdown-menu{
-  visible-xs;
-  visible-sm;
-  hidden-lg;
-  hidden-md;
-}
-
