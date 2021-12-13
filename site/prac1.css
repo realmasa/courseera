@@ -2,7 +2,7 @@ body{
   background-color: #191970;
   font-size: 16px;
   color: #fff;
-  font-family: 'Oxygen', sans-serif;
+  
 }
 
 .navbar-brand{
@@ -16,6 +16,12 @@ body{
 }
 .container{
   background-color: #469cb9;
+  float: left;
+  clear: both;
+  width:100%;
+  padding-bottom: 55px;
+  font-size: 25px;
+
 
 }
 .navbar-toggle{
@@ -32,10 +38,67 @@ body{
 }
 .dropdown{
   background-color: green;
+  float: right;
+
+  width:50%;
+  height:auto;
+  clear: both;
+  padding-bottom: 0px;
+
+}
+#dropdownMenu1{
+  float: right;
+  width: 100%;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: maroon;
+  border: black solid;
+  background-color: blue;
+  padding-bottom: 0px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+
+
 }
 
+.showw {
+  display: none;
+}
 
-
+@media only screen and (max-width: 767px) {
+  .showw {
+    display: block;
+    clear: both;
+  }
+}
+.dropdown-menu{
+  background-color: #33CCCC;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 0px;
+  padding-bottom: 0;
+  
+}
+.aligns{
+  width: 100%;
+  /*background-color: yellow;*/
+  clear: both;
+  text-align: center;
+  font-family: sans-serif;
+  border: green solid;
+  font-size: 20px;
+}
+.aligns1{
+   width: 100%;
+  /*background-color: yellow;*/
+  clear: both;
+  text-align: center;
+  font-family: 'Lora', serif;
+  border: maroon solid;
+  font-size: 30px;
+#line1{
+  border-top: black solid;
+}
 
 .icon-bar{
 
@@ -56,26 +119,19 @@ clear: both;
    
 
   }
-  .dropdown{
-    background-color: red;
-    float: left;
-  }
+  
   .navbar-brand{ height: 80px;
 
   }
-  .dropdown{
-    visibility: visible;
-    clear: both;
-    border-color: solid black;
-    padding: 0;
-  }
+  
+  
 
 }
 @media (min-width:767px) and (max-width: 990px){ .container{
   background-color: yellow;
   }
- }
  
+  
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width:991px) and (max-width: 1199px) {.container{
