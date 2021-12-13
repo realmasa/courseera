@@ -76,7 +76,6 @@ body{
     display: block;
     clear: both;
   }
-}
 .dropdown-menu{
   background-color: yellow;
   width: 100%;
@@ -104,8 +103,23 @@ body{
   font-size: 30px;
   text-align: center;
 }
+
 #line1{
   border-top: black solid;
+}
+.largers{
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .largers {
+    display: block;
+    
+    
+  }
+.centang{
+  text-align: center;
+  border-color: red;
 }
 
 
@@ -131,8 +145,11 @@ body{
   
 
 }
-@media (min-width:767px) and (max-width: 990px){ .container{
-  background-color: yellow;
+@media (min-width:768px) and (max-width: 990px){ 
+ 
+
+  }
+  background-color: green;
   }
  
   
