@@ -1,0 +1,19 @@
+body{
+	background-color: #003366;
+}
+
+div.container{
+	background-color: #530024;
+	height: 47px;
+	font-size: 40px;
+	font-family: 'Oxygen', sans-serif;
+	border:solid black;
+
+}
+.navbar-header{
+float: right;
+height: auto;
+}
+.navbar-brand{
+
+}
