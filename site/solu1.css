@@ -1,10 +1,10 @@
 body{
-	background-color: #003366;
+	background-color: #00FFFF;
 }
 
-div.container{
-	background-color: #530024;
-	height: 47px;
+.container{
+	background-color: #DC143C;
+	height: 71px;
 	font-size: 40px;
 	font-family: 'Oxygen', sans-serif;
 	border:solid black;
@@ -13,7 +13,37 @@ div.container{
 .navbar-header{
 float: right;
 height: auto;
+height: 20px;
 }
 .navbar-brand{
-
+height: 20px;
 }
+.container-fluid{
+	background-color: plum;
+	float: right;
+}
+.showw {
+  display: none;
+}
+.icon-bar{
+	border: green solid;
+}
+@media only screen and (max-width: 768px) {
+  .showw {
+    display: block;
+    clear: both;
+  }
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
