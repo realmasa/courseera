@@ -2,6 +2,7 @@ body{
 	background-color:whitesmoke;
 	border: solid #000066;
 }
+
 #pesa{
 	font-weight:bolder;
 	color: red;
@@ -23,14 +24,19 @@ body{
 
 }
 #aligns{
-	border: solid #000066;
+	border: solid maroon;
 	padding-top: 50px;
 	clear: both;
 	text-align: center;
 	color: orangered;
 	font-size:x-large;
 	padding: 15px 21px 15px 21px;
-	background-color: maroon;
+	background-color: #000066;
+}
+#text{
+	background-color: dimgrey;
+	text-align: center;
+
 }
 .position{
 	text-align: left;
@@ -59,4 +65,10 @@ font-family: "Times New Roman", Times, serif;
   float: left;
   width: 33%;
   padding: 1px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .column{
+    width: 100%;
+  }
 }
