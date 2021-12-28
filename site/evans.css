@@ -1,20 +1,46 @@
 body{
-	background-color: #8d1919;
+	background-color:whitesmoke;
+	border: solid #000066;
+}
+#pesa{
+	font-weight:bolder;
+	color: red;
+	border: solid red;
+	text-align: center;
+	margin:0px;
+	background-color: dimgrey;
+
 }
 #picsize{
 	width: 60%;
-	height:auto;
+	height:182px;
 	border-radius:40%;
-	border: 5px solid #000066;
+	border: 5px solid maroon;
 	padding: 5px;
 	text-align: left;
+	background-color:#000066;
 
 
 }
+#aligns{
+	border: solid #000066;
+	padding-top: 50px;
+	clear: both;
+	text-align: center;
+	color: orangered;
+	font-size:x-large;
+	padding: 15px 21px 15px 21px;
+	background-color: maroon;
+}
 .position{
 	text-align: left;
-	color: #CC0099
-;
+	color: #CC0099;
+	font-weight: bold ;
+	font-family: monospace;
+	font-style: oblique;
+
+
+
 font-size: 20px;
 
 font-family: "Times New Roman", Times, serif;
@@ -23,6 +49,11 @@ font-family: "Times New Roman", Times, serif;
 .container{
 	
 	
+	
+}
+.row{
+	
+	width:100%;
 }
 .column {
   float: left;
