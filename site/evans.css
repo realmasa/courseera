@@ -1,0 +1,31 @@
+body{
+	background-color: #8d1919;
+}
+#picsize{
+	width: 60%;
+	height:auto;
+	border-radius:40%;
+	border: 5px solid #000066;
+	padding: 5px;
+	text-align: left;
+
+
+}
+.position{
+	text-align: left;
+	color: #CC0099
+;
+font-size: 20px;
+
+font-family: "Times New Roman", Times, serif;
+
+}
+.container{
+	
+	
+}
+.column {
+  float: left;
+  width: 33%;
+  padding: 1px;
+}
